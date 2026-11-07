@@ -99,7 +99,7 @@ void task2(void) {
         int sumEvenPositions = 0;
         int sumOddPositions = 0;
 
-        printf("\nВведите длинное целое число: ");
+        printf("Введите длинное целое число:\n");
 
         if (scanf("%999s", number) != 1)
         {
@@ -196,7 +196,7 @@ void task2(void) {
                 sumSecond += number[len / 2 + (len % 2) + i] - '0';
             }
 
-            printf("\nРезультаты вычислений:\n");
+            printf("Результаты вычислений:\n");
 
             printf("1. Количество цифр 3: %d\n", count3);
 
@@ -324,7 +324,7 @@ void task4(void) {
                    "ширина — не меньше 3.\n");
         }
         else {
-            printf("\nФигура варианта 26:\n\n");
+            printf("Фигура варианта 26:\n");
 
             int innerWidth = width / 3;
             int leftWidth = (width - innerWidth) / 2;
